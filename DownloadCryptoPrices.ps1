@@ -26,7 +26,6 @@ Foreach ($Crypto in $CryptoList)
 	#Download prices.  Quicken only tracks daily prices so no need to download more detail than that.
 	$CRaw = Invoke-WebRequest "https://www.alphavantage.co/query?function=DIGITAL_CURRENCY_DAILY&symbol=$Crypto&market=CNY&apikey=$APIKey&datatype=csv"
 	$CPriceList = ConvertFrom-Csv $CRaw
-	#$CPriceList = $CPriceList |select -First 3  #Test with small dataset
 	Write-Host "$Crypto - $($CPriceList.count)"
 	$CPriceList = $CPriceList | select -Property @{ n = "symbol"; e = { "zzz$Crypto" } }, "close (USD)", @{ Name = 'd2'; expression = { ([datetime]$_.timestamp).toshortdatestring() } }
 	$PriceList += $CPriceList
