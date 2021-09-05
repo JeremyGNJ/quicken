@@ -14,6 +14,7 @@ assets in context with all of your investments.**
       
 # Step 2 - A way to get crypto prices
   Create an account on https://www.alphavantage.co  (NOT .com  just .co)
+  
   On the home page click "Get your free API key"
   
   (its just a site that allows free stock price download for individuals)
