@@ -18,9 +18,13 @@ assets in context with all of your investments.**
   
   (its just a site that allows free stock price download for individuals)
     
-# Step 3 - Download prices
-  Add your API key and desired stocks to the powershell script then run it.
-  If you dont know how to do this, sorry.
+# Step 3 - Download prices using powershell script
+1. Download DownloadCryptoPrices.ps1 from this repo
+2. Modify it to include your API key
+3. Modify it to include your desired crypto coin symbols
+4. Launch powershell and run the script
+5. Launch quicken and import historical prices from the CSV file that the script produces
+6; If you dont know how to do any of this, sorry.
 
 # Step 4 - Create an account in quicken and "buy" your coins
    If you dont know how to do this, you probably stopped reading along time ago.
