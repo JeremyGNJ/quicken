@@ -1,6 +1,6 @@
 **Quicken doesnt track Crypto prices.  But it's pretty easy to do so.   Can't help that it isnt capable of 
 tracking enough decimal precision, but it's still useful to an approximation for viewing your crypto 
-assets in context with all of your investments.
+assets in context with all of your investments.**
 
 # Step 1 - Fake stocks in quicken
   In quicken, create a fake stock for each coin you want to track, but for the Symbol, prefix the 
