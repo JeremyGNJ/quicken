@@ -8,8 +8,8 @@ Creates a CSV of crypto price history suitable to import into quicken.
 
 		1.  Create fake stocks in Quicken with a prefix of "zzz" before the coin name (ie   zzzBTC)
 		2.  Create a free account on AlphaVantage (free historical prices)
-        3.  Put your alpha vantage APIK key below
-		4.  Build your Crypto List below
+        	3.  Put your alpha vantage API key below
+		4.  Build your Crypto List below 
 		5.  "ImportToQuicken.csv" will be saved wherever you ran the command from
 #>
 
