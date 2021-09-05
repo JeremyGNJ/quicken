@@ -24,7 +24,7 @@ assets in context with all of your investments.**
 3. Modify it to include your desired crypto coin symbols
 4. Launch powershell and run the script
 5. Launch quicken and import historical prices from the CSV file that the script produces
-6; If you dont know how to do any of this, sorry.
+6. If you dont know how to do any of this, sorry.
 
 # Step 4 - Create an account in quicken and "buy" your coins
    If you dont know how to do this, you probably stopped reading along time ago.
