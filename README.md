@@ -4,8 +4,12 @@ assets in context with all of your investments.**
 
 # Step 1 - Fake stocks in quicken
   In quicken, create a fake stock for each coin you want to track, but for the Symbol, prefix the 
-  coin symbol with "zzz". For example bitcoin should be zzzBTC  (this will avoid conflicting with any stocks that currently use the same
-  symbol as a COIN and avoid issues if quicken supports crypto in the future)
+  coin symbol with "zzz". 
+
+  For example, bitcoin should be:  **zzzBTC**
+  
+  (this will avoid conflicting with any stocks that currently use the same symbol as a COIN and avoid issues 
+  if quicken supports crypto in the future)
 
 ## To do this:
 1. Investing --> Tools --> Security List --> Add Security
