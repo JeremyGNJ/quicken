@@ -14,7 +14,7 @@ Creates a CSV of crypto price history suitable to import into quicken.
 #>
 
 #User Variables
-$APIKey = "WGCLBCJE2W767IUR"
+$APIKey = "your api key here"
 $CryptoList = "BTC","BCH","XMR","ADA", "BTG", "DASH", "DOGE", "DOT", "ETH", "LTC", "XLM", "XRP"
 
 #Instantiate Arrays
